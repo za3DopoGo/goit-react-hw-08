@@ -1,18 +1,14 @@
-.contactItem {
-  border: 2px solid black;
-  border-radius: 10px;
+.contactsContainer {
+  padding: 20px;
+}
+.contactsMenu {
   display: flex;
-  justify-content: space-between;
-  padding: 10px 5px;
-  min-width: 240px;
+  justify-content: space-around;
   align-items: center;
 }
-.contactInfo p:not(:last-child) {
-  margin-bottom: 5px;
-}
-.btn {
+.modalBtn {
   display: flex;
-  font-size: 14px;
+  font-size: 18px;
   padding: 5px 10px;
   border: 1px solid black;
   background-color: transparent;
@@ -20,9 +16,10 @@
   border-radius: 10px;
   text-decoration: none;
   transition: all 0.3s;
+  outline: none;
 }
 
-.btn:hover,
-.btn:focus {
+.modalBtn:hover,
+.modalBtn:focus {
   transform: scale(1.1);
 }

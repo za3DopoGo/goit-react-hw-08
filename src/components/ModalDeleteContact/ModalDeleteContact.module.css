@@ -1,0 +1,29 @@
+.yesBtn,
+.noBtn {
+  display: flex;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s;
+  outline: none;
+  margin: 0 auto;
+}
+
+.btnContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.yesBtn:focus,
+.yesBtn:hover,
+.noBtn:focus,
+.noBtn:hover {
+  transform: scale(1.1);
+}
