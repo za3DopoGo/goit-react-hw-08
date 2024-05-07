@@ -1,0 +1,28 @@
+.contactItem {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  min-width: 240px;
+  align-items: center;
+}
+.contactInfo p:not(:last-child) {
+  margin-bottom: 5px;
+}
+.contactItem button {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: gainsboro;
+  border: none;
+  height: 30px;
+}
